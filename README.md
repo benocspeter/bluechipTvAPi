@@ -2,7 +2,9 @@
  
 ### Usage:
 mvn clean package
+
 java -jar target\BlueChipTvApi.jar
+
 mvn jaxb2:schemagen
 
 ### Schema after generation
