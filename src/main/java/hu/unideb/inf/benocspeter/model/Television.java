@@ -21,7 +21,7 @@ import java.util.List;
 public class Television {
 
 
-    @XmlAttribute(required = true)
+    @XmlElement(required = true)
     private String productId;
 
     @XmlElement(required = true)

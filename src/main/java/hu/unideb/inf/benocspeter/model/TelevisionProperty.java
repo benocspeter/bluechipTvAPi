@@ -23,13 +23,13 @@ public class TelevisionProperty {
     @XmlElement(required = true)
     private Object value;
 
-    @XmlElement(required = false)
+    @XmlAttribute(required = false)
     private String measure;
 
     @XmlElement(required = false)
     private Object alternativeValue;
 
-    @XmlElement(required = false)
+    @XmlAttribute(required = false)
     private String alternativeMeasure;
 
 

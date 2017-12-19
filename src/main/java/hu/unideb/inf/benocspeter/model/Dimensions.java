@@ -1,9 +1,6 @@
 package hu.unideb.inf.benocspeter.model;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.*;
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -15,13 +12,13 @@ import java.util.regex.Pattern;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Dimensions
 {
-    @XmlAttribute(required = true)
+    @XmlElement(required = true)
     private BigDecimal width;
 
-    @XmlAttribute(required = true)
+    @XmlElement(required = true)
     private BigDecimal height;
 
-    @XmlAttribute(required = true)
+    @XmlElement(required = true)
     private BigDecimal thickness;
 
     public Dimensions() {}

@@ -40,10 +40,10 @@ public class SearchResultItem {
     @XmlElement(required = true)
     private String stockInformation;
 
-    @XmlAttribute(required = true)
+    @XmlElement(required = true)
     private String productID;
 
-    @XmlElement(required = true)
+    @XmlAttribute(required = true, name="uri")
     private String detailsAddress;
 
 

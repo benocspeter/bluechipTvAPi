@@ -9,10 +9,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Resolution {
 
-    @XmlElement
+    @XmlElement(required = true)
     private int width;
 
-    @XmlElement
+    @XmlElement(required = true)
     private int height;
 
     public Resolution(int width, int height) {

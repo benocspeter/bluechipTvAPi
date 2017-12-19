@@ -20,7 +20,7 @@ public class SearchResults {
 
 
 
-    @XmlAttribute(required = true)
+    @XmlAttribute(required = true ,name="amountOfItems")
     private int itemsTotal;
 
     @XmlAttribute(required = true)
@@ -44,7 +44,7 @@ public class SearchResults {
     }
 
     public int getItemsTotal() {
-        return to-from + 1;
+        return itemsTotal;
     }
 
     public void setItemsTotal(int itemsTotal) {
